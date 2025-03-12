@@ -1,0 +1,110 @@
+#leftsideitem {
+    text-align: left;
+}
+
+#rightsideitem {
+    text-align: right;
+}
+
+#carritocontainer {
+    background-color: #FFFFFF;
+    margin: 2% auto;
+    width: 95%;
+    padding: 5%;
+}
+
+label[for="location"] {
+  text-align: right;
+  width: auto;
+  max-width: 800px;
+  font-family: 'Baskervville';
+  font-style: italic;
+  font-size: 200%;
+  color: #000000;
+}
+
+#category, #location {
+  border: none;
+  background-color: #F1F1F1;
+  font-family: 'Manrope';
+  font-style: italic;
+  font-size: 100%;
+  color: #9F9F9F;
+  width: 75%;
+}
+
+label[for="category"] {
+  text-align: right;
+  width: auto;
+  max-width: 800px;
+  font-family: 'Baskervville';
+  font-style: italic;
+  font-size: 200%;
+  color: #000000;
+}
+
+#description {
+  text-align: right;
+  background-color: transparent;
+  border: none;
+  width: 90%;
+  font-family: 'Manrope';
+  font-style: light;
+  font-size: 18px;
+  color: #000000;
+  resize: none;
+  overflow: hidden; 
+  min-height: 50%; 
+  height: auto;
+}
+
+#title {
+  text-align: left;
+  background-color: transparent;
+  width: 100%;
+  max-width: 100%;
+  font-family: 'Baskervville';
+  font-style: italic;
+  font-size: 300%;
+  color: #000000;
+  margin-left: 0%;
+  margin-right: auto;
+}
+
+#price {
+  text-align: right;
+  background-color: transparent;
+  width: 100%;
+  font-family: 'Baskervville';
+  font-style: italic;
+  font-size: 300%;
+  color: #811818;
+  margin-left: auto;
+}
+
+.botones{
+  width: auto;
+  margin: 5% 0% 5% 0%;
+}
+
+.boton-rojo {
+  border: none;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 22px;
+  padding: 15px 25px;
+  border-radius: 20px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+}
+
+.boton-rojoAPLICAR {
+  border: none;
+  background-color: #AA2B3E;
+  color: #FFFFFF;
+  font-size: 22px;
+  padding: 15px 25px;
+  border-radius: 20px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+}
