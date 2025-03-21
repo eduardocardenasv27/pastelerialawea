@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <script src="scripts/createedit.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="createeditparticular.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <header></header>
+  <body>
+    <div class="container-fluid" id="navbarcontainer">
+      <div class="row">
+        <div class="col-md-3 order-md-1 col-6 order-1">
+          <img src="logo.png" alt="Repostería la Wea" class="logo" />
+        </div>
+        <div class="col-md-2 order-md-2 col-4 order-3">
+          <a class="navlinks" href="">SUCURSALES</a>
+        </div>
+        <div class="col-md-2 order-md-3 col-4 order-4">
+          <a class="navlinks" href="">ACERCA DE</a>
+        </div>
+        <div class="col-md-2 order-md-4 col-4 order-5">
+          <a class="navlinks" href="">MENÚ</a>
+        </div>
+        <div class="col-md-3 order-md-5 col-6 order-2">
+          <button class="cart-button">admin</button>
+        </div>
+      </div>
+    </div>
+
+<!-- sitio -->
+    <div class="container-fluid" id="carritocontainer">
+        <div class="row">
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" id="leftsideitem">
+                <input type="text" id="title" name="title" placeholder="ingresa titulo...">
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" id="rightsideitem">
+                <input type="text" id="price" name="price" placeholder="$000.00">
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" id="leftsideitem">
+	      <form>
+	        <input type="file" id="imageUpload" name="imageUpload" accept="image/*">
+	      </form>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" id="rightsideitem">
+                <textarea id="description" name="description" placeholder="Enter item description"></textarea>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" id="leftsideitem">
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" id="rightsideitem">
+          	<label for="location">selecciona sucursales:</label><br>
+          	<select id="location" name="location" placeholder="selecciona al menos un item">
+            	<option value="sucursal1">Sucursal 1</option>
+            	<option value="sucursal2">Sucursal 2</option>
+            	<option value="sucursal3">Sucursal 3</option>
+          	</select>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" id="leftsideitem">
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" id="rightsideitem">
+          	<label for="category">selecciona categoria:</label><br>
+          	<select id="category" name="category" placeholder="selecciona un item">
+            	<option value="cat1">PASTEL</option>
+            	<option value="cat2">PAY</option>
+            	<option value="cat3">PANQUE</option>
+            	<option value="cat4">GALLETA</option>
+          	</select>
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" id="leftsideitem">
+            </div>
+            <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6" id="rightsideitem">
+          	<div class="botones">
+            	 <button id="SUBMIT" class="boton-rojoAPLICAR">APLICAR</button>
+            	 <button class="boton-rojo">CANCELAR</button>
+		</div>
+            </div>
+        </div>
+    </div>
+
+  </body>
+</html>
